@@ -26,4 +26,4 @@ library.addMagazine(new Magazine(110, "magazine4", 2080, 2468, 6))
 library.showMagazine()
 library.removeBook(books[0])
 library.showBook();
-library.searchCode(108)
+library.searchCode(10)

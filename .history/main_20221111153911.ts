@@ -21,9 +21,10 @@ newspaper.push(new Newspaper(109, "newspaper3", 3200, new Date("2022-11-05")))
 
 let library = new LibraryManager(books, magazines, newspaper)
 // console.log(library);
-library.showNewspaper()
+library.loa
 library.addMagazine(new Magazine(110, "magazine4", 2080, 2468, 6))
 library.showMagazine()
 library.removeBook(books[0])
 library.showBook();
-library.searchCode(108)
+
+library.searchCode(101)

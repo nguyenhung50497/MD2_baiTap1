@@ -16,14 +16,15 @@ magazines.push(new Magazine(105, "magazine2", 2060, 1357, 3))
 magazines.push(new Magazine(106, "magazine3", 2070, 1246, 4))
 
 newspaper.push(new Newspaper(107, "newspaper1", 3000, new Date("2022-11-01")))
-newspaper.push(new Newspaper(108, "newspaper2", 3100, new Date("2022-11-03")))
-newspaper.push(new Newspaper(109, "newspaper3", 3200, new Date("2022-11-05")))
+newspaper.push(new Newspaper(107, "newspaper2", 3100, new Date("2022-11-03")))
+newspaper.push(new Newspaper(107, "newspaper3", 3200, new Date("2022-11-05")))
 
 let library = new LibraryManager(books, magazines, newspaper)
 // console.log(library);
-library.showNewspaper()
-library.addMagazine(new Magazine(110, "magazine4", 2080, 2468, 6))
-library.showMagazine()
-library.removeBook(books[0])
-library.showBook();
-library.searchCode(108)
+
+library.addMagazine(new )
+
+// library.removeBook(books[0])
+// library.showBook();
+
+// library.searchCode(101)
